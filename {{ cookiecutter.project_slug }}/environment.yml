@@ -20,13 +20,11 @@ dependencies:
   - seaborn
   - scikit-learn
   {% if cookiecutter.project_packages == "All" -%}
+  - tensorflow-cpu
   - keras
+  - cpuonly
   - pytorch
-  - tensorflow
-  - pandas-flavor
-  - pandas-profiling
   {% endif -%}
   - pip
   - plotly
-  - pyprojroot
   - python={{ cookiecutter.python_version }}
