@@ -1,11 +1,11 @@
 ipykernel
 ipython
 {% if cookiecutter.project_packages == "All" -%}
-    jupyter
-    jupyterlab
+jupyter
+jupyterlab
 {% endif -%}
 {% if cookiecutter.project_packages == "All" -%}
-    missingno
+missingno
 {% endif -%}
 numpy
 pandas
@@ -14,11 +14,10 @@ matplotlib
 seaborn
 scikit-learn
 {% if cookiecutter.project_packages == "All" -%}
-    keras
-    pytorch
-    tensorflow
-    pandas-flavor
-    pandas-profiling
+wheel
+tensorflow-cpu
+keras
+--find-links https://download.pytorch.org/whl/cpu
+torch
 {% endif -%}
 plotly
-pyprojroot
