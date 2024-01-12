@@ -14,10 +14,11 @@ matplotlib
 seaborn
 scikit-learn
 {% if cookiecutter.project_packages == "All" -%}
+--find-links https://download.pytorch.org/whl/cpu
+--external-find-links https://download.pytorch.org/whl/cpu
 wheel
 tensorflow-cpu
 keras
---find-links https://download.pytorch.org/whl/cpu
-torch
+torch==2.1.2+cpu
 {% endif -%}
 plotly
