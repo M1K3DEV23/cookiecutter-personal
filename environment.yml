@@ -1,7 +1,0 @@
-name: template
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - cookiecutter
-prefix: /home/mike/anaconda3/envs/template
