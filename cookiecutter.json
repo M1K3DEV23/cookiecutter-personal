@@ -4,14 +4,6 @@
   "project_description": "Something Cool",
   "project_author_name": "Your name",
   "project_author_email": "Your email",
-  "open_source_license": [
-    "MIT",
-    "BSD-3-Clause",
-    "No license file"
-  ],
-  "project_packages": [
-    "All",
-    "Minimal"
-  ],
-  "python_version": "[3.10]"
+  "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
+  "project_packages": ["All", "Minimal"]
 }
