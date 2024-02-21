@@ -13,7 +13,9 @@ subprocess.call(["git", "commit", "-m", "Initial commit"])
 
 print(f"{MESSAGE_COLOR}Create a virtual environment...{RESET_ALL}")
 
-subprocess.call(["python3", "-m", "venv", ".venv"])
+subprocess.call(["python3", "-m", "venv", ".{{ cookiecutter.project_slug }}"])
+subprocess.call(["source", ".{{ cookiecutter.project_slug }}/bin/activate"])
+subprocess.call(["pip3" "install", "-r", "requirements.txt"])
 
 print(
     f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun! with data{RESET_ALL}"

@@ -9,6 +9,7 @@ missingno
 {% endif -%}
 numpy
 pandas
+pyarrow
 scipy
 matplotlib
 seaborn
