@@ -26,4 +26,4 @@ dependencies:
   {% endif -%}
   - pip
   - plotly
-  - python={{ cookiecutter.python_version }}
+  - python=3.11
